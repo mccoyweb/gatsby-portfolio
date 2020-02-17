@@ -82,7 +82,7 @@ export const footerData = {
     },
         {
       id: uuidv1(),
-      name: 'freecodecamp',
+      name: 'free-code-camp',
       url: 'https://www.freecodecamp.org/mccoyweb',
     },
   ],
