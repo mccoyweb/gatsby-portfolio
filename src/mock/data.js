@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'erikmccoy@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,28 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/emccoy',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/erik-mccoy-964aa769',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/mccoyweb',
+    },
+        {
+      id: uuidv1(),
+      name: 'freecodecamp',
+      url: 'https://www.freecodecamp.org/mccoyweb',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
