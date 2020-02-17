@@ -31,7 +31,7 @@ const Projects = () => {
             const { id, title, info, info2, url, repo, img } = project;
 
             return (
-              <Row key={id}>
+              <Row>
                 <Col lg={4} sm={12}>
                   <Fade
                     left={isDesktop}
