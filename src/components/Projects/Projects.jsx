@@ -57,7 +57,8 @@ const Projects = () => {
                       >
                         See Live
                       </a>
-{repo && (
+
+                      {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -109,5 +110,10 @@ const Projects = () => {
               </Row>
             );
           })}
+        </div>
+      </Container>
+    </section>
+  );
+};
 
 export default Projects;
