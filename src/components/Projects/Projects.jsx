@@ -27,12 +27,12 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          <Row>
+          
           {projects.map(project => {
             const { id, title, info, info2, url, repo, img } = project;
 
             return (
-              
+              <Row>
                 <Col lg={4} sm={12}>
                   <Fade
                     left={isDesktop}
@@ -108,10 +108,9 @@ const Projects = () => {
                     </div>
                   </Fade>
                 </Col>
-              
+              </Row>
             );
           })}
-        </Row>
         </div>
       </Container>
     </section>
