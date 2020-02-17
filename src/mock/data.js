@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Test',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'mem-murray.jpg',
+    title: 'Memory Game',
+    info: 'A classic memory game built with React.',
+    info2: 'Technologies used: React, Git',
+    url: 'https://mccoyweb.github.io/mem-murray/',
+    repo: 'https://github.com/mccoyweb/mem-murray', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
