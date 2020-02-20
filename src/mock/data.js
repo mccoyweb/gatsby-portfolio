@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'todo.jpg',
+    title: 'To-Do List',
+    info: 'A simple to-do list built using React Hooks.',
+    info2: 'Technologies used: React',
+    url: 'https://cdpn.io/emccoy/debug/LYVYJpG/PNAvYKJLodXr',
+    repo: 'https://codepen.io/emccoy/pen/LYVYJpG', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
