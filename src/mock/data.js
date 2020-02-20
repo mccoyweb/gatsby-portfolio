@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'simon.jpg',
+    title: 'Simon Game',
+    info: 'A browser based version of the classic 80s electronic game, with accurate sounds and timing.',
+    info2: 'Technologies used: jQuery, CSS3, HTML5',
+    url: 'https://cdpn.io/emccoy/debug/vGKJRV/XBkGRqvoazwA',
+    repo: 'https://codepen.io/emccoy/pen/vGKJRV', // if no repo, the button will not show up
   },
 ];
 
