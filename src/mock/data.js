@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'light-dark.jpg',
+    title: 'Light and Dark Mode Homepage',
+    info: 'A homepage with a light and dark mode toggle.',
+    info2: 'Technologies used: Html, CSS, JavaScript',
+    url: 'https://mccoyweb.github.io/light-and-dark-homepage/',
+    repo: 'https://github.com/mccoyweb/light-and-dark-homepage', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'mem-murray.jpg',
     title: 'Memory Game',
     info: 'A classic memory game built with React.',
@@ -41,7 +50,7 @@ export const projectsData = [
     title: 'To-Do List',
     info: 'A simple to-do list built using React Hooks.',
     info2: 'Technologies used: React',
-    url: 'https://cdpn.io/emccoy/debug/LYVYJpG/PNAvYKJLodXr',
+    url: 'https://codepen.io/emccoy/full/LYVYJpG',
     repo: 'https://codepen.io/emccoy/pen/LYVYJpG', // if no repo, the button will not show up
   },
   {
@@ -50,7 +59,7 @@ export const projectsData = [
     title: 'Simon Game',
     info: 'A browser based version of the classic 80s electronic game, with accurate sounds and timing.',
     info2: 'Technologies used: jQuery, CSS3, HTML5',
-    url: 'https://cdpn.io/emccoy/debug/vGKJRV/XBkGRqvoazwA',
+    url: 'https://codepen.io/emccoy/full/vGKJRV',
     repo: 'https://codepen.io/emccoy/pen/vGKJRV', // if no repo, the button will not show up
   },
 ];
